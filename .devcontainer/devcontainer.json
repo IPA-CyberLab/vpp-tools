@@ -1,0 +1,15 @@
+{
+	"name": "dev",
+	"image": "mcr.microsoft.com/devcontainers/go:1-trixie",
+	"postCreateCommand": ".devcontainer/postCreate.sh",
+	"runArgs": ["--init", "--privileged"],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"golang.go"
+			]
+		}
+	},
+	"mounts": [
+	],
+}
